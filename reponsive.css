@@ -1,0 +1,176 @@
+@media (max-width: 84em) {
+  .testimonials {
+    padding: 0 12rem 8rem 12rem;
+  }
+  .testimonial-description {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 75em) {
+  .arrow-down {
+    padding-top: 8rem;
+  }
+  .how-description {
+    width: 60%;
+  }
+  .service-description {
+    width: 75%;
+  }
+  .testimonials {
+    gap: 3rem;
+  }
+}
+@media (max-width: 66em) {
+  html {
+    font-size: 50%;
+  }
+  .header {
+    background-image: url(images/mobile/image-header.jpg);
+  }
+  .how-description {
+    width: 50%;
+  }
+}
+@media (max-width: 53em) {
+  html {
+    font-size: 43%;
+  }
+  .secondary-heading {
+    font-family: "Fraunces", serif;
+    font-size: 3.6rem;
+    font-weight: 900;
+    line-height: 1.2;
+  }
+  section-hero {
+    top: 60%;
+    left: 50%;
+  }
+  .testimonials {
+    gap: 2rem;
+    padding: 0 5rem 5rem 5rem;
+  }
+  .arrow-down {
+    padding-top: 10rem;
+  }
+  .text-description {
+    font-size: 1.3rem;
+  }
+  .testimonial-description {
+    margin: 5rem 0 2rem 0;
+  }
+  .testimonial-job {
+    margin-top: 0.5rem;
+  }
+  .gallery {
+    height: 30rem;
+    background-size: cover;
+  }
+  .gallery:nth-child(1) {
+    background-image: url(images/mobile/image-gallery-milkbottles.jpg);
+  }
+  .gallery:nth-child(2) {
+    background-image: url(images/mobile/image-gallery-orange.jpg);
+  }
+  .gallery:nth-child(3) {
+    background-image: url(images/mobile/image-gallery-cone.jpg);
+  }
+  .gallery:nth-child(4) {
+    background-image: url(images/mobile/image-gallery-sugar-cubes.jpg);
+  }
+  .link:link,
+  .link:visited {
+    font-size: 2rem;
+  }
+  .how-link::after {
+    bottom: 1.2px;
+
+    height: 5px;
+  }
+  .how-link:hover::after,
+  .how-link:active::after {
+    height: 10px;
+  }
+}
+@media (max-width: 35em) {
+  html {
+    font-size: 50%;
+  }
+  .grid-2-cols,
+  .grid-3-cols {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grid-4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .btn-navba {
+    display: flex;
+  }
+  .header .navigations {
+    display: none;
+  }
+  .how-description {
+    padding: 5rem 0;
+  }
+  .one {
+    order: 1;
+  }
+  .two {
+    order: 2;
+  }
+
+  .btn {
+    display: block;
+    border: none;
+    background: transparent;
+  }
+  .testimonial {
+    padding: 5rem 0;
+  }
+  .open-nav {
+    position: relative;
+  }
+  .open-nav .navbar .navigations {
+    display: block;
+  }
+  .open-nav .navbar .btn {
+    display: block;
+  }
+  .open-nav .navbar .navigations .navigation-lists {
+    background-color: hsl(0, 0%, 100%);
+    padding: 10rem;
+    width: 80%;
+    position: absolute;
+    z-index: 3000;
+    right: 50%;
+    transform: translate(50%, 18%);
+    top: 3%;
+    flex-direction: column;
+    align-items: center;
+    animation: 0.2s navbar;
+  }
+  .open-nav .navbar .navigations .navigation-lists::after {
+    position: absolute;
+    content: "";
+    top: -8%;
+    right: 0;
+    width: 20px;
+    height: 100px;
+    border-top: 30px solid transparent;
+    border-right: 30px solid hsl(0, 0%, 100%);
+  }
+
+  .open-nav .navbar .navigations .navigation-lists .navigation-list a {
+    color: hsl(213, 9%, 39%);
+  }
+  .open-nav .navbar .navigations .navigation-lists .navigation-list .cta {
+    background-color: hsl(51, 100%, 49%);
+    color: hsl(212, 27%, 19%);
+  }
+  .footer {
+    gap: 5rem;
+    padding: 5rem 0;
+  }
+  .navigations {
+    gap: 2rem;
+  }
+}
